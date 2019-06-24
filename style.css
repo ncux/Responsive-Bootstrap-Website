@@ -1,7 +1,136 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #222222;
+}
 
+.navbar {
+  padding: 0.8rem;
+}
 
+.navbar .navbar-nav li {
+  padding-right: 20px;
+}
+
+.navbar .navbar-nav .nav-link {
+  font-size: 1.1rem !important;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+}
+
+.carousel-caption h1 {
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px #000000;
+}
+
+.carousel-caption h3 {
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000000;
+  padding-bottom: 1rem;
+}
+
+.btn-primary {
+  background-color: #6648b1;
+  border: 1px solid #563d7c;
+}
+
+.btn-primary:hover {
+  background-color: #563d7c;
+  border: 1px solid #563d7c;
+}
+
+.jumbotron {
+  padding: 1rem;
+}
+
+.padding {
+  padding-bottom: 2rem;
+}
+
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: 0.3rem;
+}
+
+.fa-html5 {
+  color: #e54d26;
+}
+
+.fa-css3 {
+  color: #563d7c;
+}
+
+.fa-css3, .fa-html5 {
+  font-size: 4rem;
+  margin: 1rem;
+}
+
+.social a {
+  font-size: 4.5rem;
+  padding: 3rem;
+}
+
+.fa-google-plus-g {
+  color: #dd4b39;
+}
+
+.fa-youtube {
+  color: #bb0000;
+}
+
+.fa-snapchat-ghost {
+  color: orange;
+}
+
+.fa-telegram {
+  color: darkcyan;
+}
+
+.fa-google-plus-g:hover, .fa-youtube:hover, .fa-snapchat-ghost:hover, .fa-telegram:hover {
+  color: #d5d5d5;
+}
+
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+
+footer h5 a {
+  color: #d5d5d5;
+}
+
+.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: 0.8rem;
+}
+
+.light-100 {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: 0.8rem;
+}
 
 
 
